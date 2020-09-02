@@ -1,0 +1,52 @@
+@import "functions";
+@import "helpers/variables";
+@import "mixins";
+
+@import "bootstrap";
+
+//background setting
+.bg-cover {
+    background-position: center center;
+    background-size: cover; 
+}
+//nav setting
+.nav_fixed{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+//parallax setting
+.parallax{
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-attachment: fixed;
+}
+.header_parallax_wrap{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+.content_parallax_wrap{
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+//parallax h2 text setting
+.parallax_content_text{
+    background-color: rgba(82, 82, 82, 0.523)
+}
+//google map fluid setting
+.video_fluid{
+    position: relative;
+    padding-bottom: 56%;
+    overflow: hidden;
+}
+.video_fluid iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
